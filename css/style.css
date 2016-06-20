@@ -1,0 +1,430 @@
+html { background-color: #292c2f }
+body { background-color: #eee }
+/*section { height: 100vh;}*/
+/*section:first-child { height: 90vh; }*/
+section:nth-child(even){
+    background-color: #fff;
+}
+section:nth-child(even) .page-header{
+    border-bottom: 1px solid #f2f2f2;
+}
+section:nth-child(odd) .page-header{
+    border-bottom: 1px solid #fff;
+}
+section:nth-child(odd) .well {
+    background-color: #f2f2f2;
+    background-image: none;
+}
+/*section#skills {    background-color: rgba(39, 135, 197, 0.8);}*/
+section#legal, section#contact {
+	height: auto;
+}
+section {
+    padding-bottom: 3rem;
+}
+
+section p {
+	font-size: 2rem;
+}
+#toTop {
+	display: none; 
+	position: fixed; 
+	bottom: 1rem;
+	right: 3rem;
+	color: #92999f;
+	font-size: 6rem;
+	cursor: pointer;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.handwrite{
+	font-family: 'Indie Flower', cursive !important;
+}
+
+
+ul.nav li:hover a {
+	background-image: -webkit-linear-gradient(top, #dbdbdb 0, #e2e2e2 100%);
+    background-image: -o-linear-gradient(top, #dbdbdb 0, #e2e2e2 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dbdbdb), to(#e2e2e2));
+    background-image: linear-gradient(to bottom, #dbdbdb 0, #e2e2e2 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbdbdb', endColorstr='#ffe2e2e2', GradientType=0);
+    -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,0.075);
+    box-shadow: inset 0 3px 9px rgba(0,0,0,0.075);
+}
+#legal p {
+	font-size: 1.5rem;
+}
+/* Footer */
+footer ol.breadcrumb {
+	background-color: transparent;
+	padding-left: 0;
+}
+footer ol.breadcrumb a, ol.breadcrumb a:visited {
+	color: #5383d3;
+}
+footer ol.breadcrumb li.active { color: #92999f }
+footer .footer-icons a, footer .footer-icons a i {
+	transition: all .3s ease;
+	color: #92999f;
+	-webkit-font-smoothing: antialiased;
+}
+footer .footer-icons a:hover, footer .footer-icons a:hover i {
+	background-color: #777;
+	transform: scale(1.15);
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+footer.footer-distributed {
+    margin-top: 0;
+	position: relative;
+	box-shadow: none;
+}
+footer.footer-distributed::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 0;
+	/*box-shadow: 0 0 5px 4px rgba(41, 44, 47, 0.95);*/
+}
+.well {
+    background: none;
+}
+
+.table-container {
+    display: table;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover ;
+}
+.table-container .table-cell {
+    display: table-cell;
+}
+.center-middle {
+    text-align: center;
+    vertical-align: middle;
+}
+/* Skilllist */
+.skills-list { 
+	transition: all .5s ease;
+	list-style: none; 
+	height: 17.5rem;
+    font-size: 2rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.skills-list .sub {
+    font-size: 1.5rem;
+    vertical-align: baseline;
+}
+.skills-list:hover, .well.me_image:hover, .skills-list:hover .sub {
+    color: #000;
+}
+
+.skills-list li::before {
+    font-family: 'FontAwesome';
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: inherit;
+    padding-right: 0.5rem;
+    content: "\f00c"
+}
+
+/* misc */
+.section-link-icon, .section-link-icon:focus {
+	position: relative;
+	color: #bebebe;
+	font-size: 2rem;
+	vertical-align: middle;
+	text-decoration: none;
+	top: -0.1rem;
+}
+.section-link-icon:hover {
+	color: #000;
+}
+
+.social-inactive {
+	cursor: unset;
+}
+
+.about-image {
+	border: 1px solid #000000;
+    height: 225px;
+    width: 150px;
+    margin: 0 auto;
+    background: url("/portrait_small.jpg");
+}
+.about-info-text {
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+
+
+    .about-info-text { text-align: justify}
+
+    .about-image-frame {
+        align-content: center;
+        text-align: center;
+    }
+}
+
+
+/*Google web Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(../fonts/RobotoCondensed-Light.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(../fonts/RobotoCondensed-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(../fonts/RobotoCondensed-Bold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url(../fonts/RobotoCondensed-LightItalic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url(../fonts/RobotoCondensed-Italic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url(../fonts/RobotoCondensed-BoldItalic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(../fonts/Montserrat-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(../fonts/Montserrat-Bold.woff2) format('woff2');
+}
+
+/*Generel*/
+body {
+    color: #7f8ea8;
+    font: 300 16px/20px 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #637491;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+h2, .h2 {
+    font-size: 24px;
+}
+
+section {
+    padding: 70px 0;
+}
+
+/*Navigation*/
+nav .navbar-brand {
+    height: 70px;
+    line-height: 40px;
+}
+nav .navbar-toggle {
+    margin: 18px 15px 18px 0;
+}
+nav .navbar-nav > li:not(:first-child) {
+    margin-left: 30px;
+}
+nav .navbar-nav > li:hover > a::after {
+    width: 100%;
+}
+nav .navbar-nav > li > a::after {
+    content: "";
+    position: absolute;
+    border-top: 3px solid #5383d3;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0%;
+    transition: all 0.3s ease 0s;
+}
+nav .navbar-nav > li:hover > a {
+    background-image: none;
+    box-shadow: none;
+}
+nav .navbar-nav > li > a {
+    height: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 70px;
+    font-weight: 400;
+    padding: 0;
+    position: relative;
+}
+.navbar-default .navbar-nav > li > a > i {
+    color: #5383d3;
+}
+
+/*Skills*/
+#skills {
+    background-color: #f7f7f7;
+}
+.skills-icon:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+.skills-icon::after {
+    border: 3px solid #5383d3;
+    border-radius: 50%;
+    content: "";
+    height: 100px;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%) scale(0);
+    transition: all 0.3s ease 0s;
+    width: 100px;
+}
+.skills-icon {
+    position: relative;
+    margin: 20px 0;
+}
+.skills-icon:hover > i {
+    background-color: #f7f7f7;
+    color: #5383d3;
+}
+.skills-icon > i {
+    background-color: #5383d3;
+    border-radius: 50%;
+    color: #f7f7f7;
+    font-size: 40px;
+    height: 100px;
+    line-height: 100px;
+    transition: all 0.3s ease 0s;
+    width: 100px;
+}
+.skills-header {
+    color: #637491;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.skills-list:hover {
+    color: #5383d3;   
+}
+.skills-list {
+    background-color: #f7f7f7 !important;
+    background-image: none;
+    border: 1px solid #5383d3;
+    border-radius: 4px;
+    box-shadow: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.skills-list > li:not(:first-child) {
+    border-top: 1px solid #5383d3;
+}
+.skills-list > li {
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/*Contact*/
+#contact {
+    background-color: #5383d3;
+    color: #ffffff;
+}
+#contact h2,
+#contact .h2 {
+    color: #fff;
+}
+#contact form {
+    padding-top: 10px;
+    text-align: center;
+}
+#contact form *::-moz-placeholder {
+    color: #fff;
+    opacity: 0.5;
+}
+#contact form input[type="text"],
+#contact form textarea {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    height: 50px;
+    line-height: 20px;
+    padding: 10px 15px;
+}
+#contact form textarea {
+    height: auto;
+    resize: vertical;
+}
+#contact button {
+    background-color: #292c2f;
+    background-image: none;
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 20px;
+    text-shadow: none;
+    text-transform: uppercase;
+    width: auto;
+}
+
+/*Footer*/
+.footer-distributed {
+    background-color: #292c2f;
+    font: 300 16px/20px "Roboto Condensed";
+    padding: 70px 0;
+}
+
+
+
+/*Responsive*/
+@media (max-width: 768px) {
+    nav .navbar-nav {
+        margin: 0 -15px;
+    }
+    nav .navbar-nav > li:not(:first-child) {
+        border-top: 1px solid #eee;
+        margin: 0;
+    }
+    nav .navbar-nav > li > a::after {
+        content: none;
+    }
+    nav .navbar-nav > li > a {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 15px;
+    }
+}
