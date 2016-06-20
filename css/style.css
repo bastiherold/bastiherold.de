@@ -1,3 +1,7 @@
+/*Google web Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 html { background-color: #292c2f }
 body { background-color: #eee }
 /*section { height: 100vh;}*/
@@ -41,7 +45,6 @@ section p {
 .handwrite{
 	font-family: 'Indie Flower', cursive !important;
 }
-
 
 ul.nav li:hover a {
 	background-image: -webkit-linear-gradient(top, #dbdbdb 0, #e2e2e2 100%);
@@ -155,7 +158,7 @@ footer.footer-distributed::after {
     height: 225px;
     width: 150px;
     margin: 0 auto;
-    background: url("/portrait_small.jpg");
+    background: url("/img/portrait_small.jpg");
 }
 .about-info-text {
     display: inline-block;
@@ -163,20 +166,12 @@ footer.footer-distributed::after {
 }
 
 @media (max-width: 767px) {
-
-
     .about-info-text { text-align: justify}
-
     .about-image-frame {
         align-content: center;
         text-align: center;
     }
 }
-
-
-/*Google web Fonts*/
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 @font-face {
   font-family: 'Roboto Condensed';
@@ -356,6 +351,20 @@ nav .navbar-nav > li > a {
 }
 
 /*Contact*/
+#contact ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+}
+#contact :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    opacity:  1;
+}
+#contact ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+    opacity:  1;
+}
+#contact :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
 #contact {
     background-color: #5383d3;
     color: #ffffff;
