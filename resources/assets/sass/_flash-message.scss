@@ -1,0 +1,24 @@
+.alert.flash-message {
+  position: fixed;
+  bottom: 0rem;
+  right: 2rem;
+  z-index: 9999;
+  -moz-animation: autoHide 0s ease-in 5s forwards;
+  -webkit-animation: autoHide 0s ease-in 5s forwards;
+  -o-animation: autoHide 0s ease-in 5s forwards;
+  animation: autoHide 0s ease-in 5s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+}
+
+@keyframes autoHide {
+  to {
+    visibility: 0;
+    z-index: -9999;
+  }
+}

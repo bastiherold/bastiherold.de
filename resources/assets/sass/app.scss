@@ -1,6 +1,6 @@
 // Variables
 @import "variables";
-
+@import "flash-message";
 // Bootstrap
 //@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
@@ -118,7 +118,7 @@ footer {
 .table-container {
 
   display: table;
-  height: 100%;
+  // height: 100%;
   -webkit-background-size: cover;
   background-size: cover ;
 
