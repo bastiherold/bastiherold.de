@@ -746,6 +746,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(8);
+__webpack_require__(35);
 module.exports = __webpack_require__(36);
 
 
@@ -776,7 +777,7 @@ __webpack_require__(9);
 //     el: '#app'
 // });
 
-__webpack_require__(35);
+__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./scripts\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 /***/ }),
 /* 9 */
@@ -31823,7 +31824,7 @@ module.exports = function spread(callback) {
 /* 35 */
 /***/ (function(module, exports) {
 
-
+throw new Error("Module build failed: ModuleNotFoundError: Module not found: Error: Can't resolve '../fonts/Montserrat-Bold.woff2' in 'C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\resources\\assets\\sass'\n    at factoryCallback (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\webpack\\lib\\Compilation.js:276:40)\n    at factory (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\webpack\\lib\\NormalModuleFactory.js:235:20)\n    at resolver (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\webpack\\lib\\NormalModuleFactory.js:60:20)\n    at asyncLib.parallel.e (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\webpack\\lib\\NormalModuleFactory.js:127:20)\n    at C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\async\\dist\\async.js:3874:9\n    at C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\async\\dist\\async.js:473:16\n    at iteratorCallback (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\async\\dist\\async.js:1048:13)\n    at C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\async\\dist\\async.js:958:16\n    at C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\async\\dist\\async.js:3871:13\n    at resolvers.normal.resolve (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\webpack\\lib\\NormalModuleFactory.js:119:22)\n    at onError (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\Resolver.js:65:10)\n    at loggingCallbackWrapper (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at runAfter (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\Resolver.js:158:4)\n    at innerCallback (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\Resolver.js:146:3)\n    at loggingCallbackWrapper (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at next (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\tapable\\lib\\Tapable.js:252:11)\n    at C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\UnsafeCachePlugin.js:40:4\n    at loggingCallbackWrapper (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at runAfter (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\Resolver.js:158:4)\n    at innerCallback (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\Resolver.js:146:3)\n    at loggingCallbackWrapper (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at next (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\tapable\\lib\\Tapable.js:252:11)\n    at innerCallback (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\Resolver.js:144:11)\n    at loggingCallbackWrapper (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at next (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\tapable\\lib\\Tapable.js:249:35)\n    at resolver.doResolve.createInnerCallback (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:44:6)\n    at loggingCallbackWrapper (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at afterInnerCallback (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\Resolver.js:168:10)\n    at loggingCallbackWrapper (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at next (C:\\Users\\sherold\\projects\\laravel\\bastiherold.de\\node_modules\\tapable\\lib\\Tapable.js:252:11)");
 
 /***/ }),
 /* 36 */
