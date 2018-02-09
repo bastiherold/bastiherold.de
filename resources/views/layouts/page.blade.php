@@ -67,6 +67,8 @@
 </head>
 <body>
 
+    @yield('content')
+
   <footer class="footer-distributed">
       <div class="container">
           <div class="footer-left">
@@ -129,9 +131,9 @@
   </footer>
 
   <!-- jQuery -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  {{--  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  --}}
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  {{--  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  --}}
   
   <!-- GA -->
   <script>
