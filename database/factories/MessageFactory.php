@@ -6,7 +6,7 @@ $factory->define(App\Message::class, function (Faker $faker) {
     return [
         'senderName' => $faker->name,
         'email' => $faker->unique()->safeEmail,
-        'subject' => $faker->title,
+        'subject' => $faker->paragraph,
         'body' => $faker->paragraph
     ];
 });

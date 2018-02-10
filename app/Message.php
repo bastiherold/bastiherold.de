@@ -12,7 +12,7 @@ class Message extends Model
     {
         if ( ! $this->isRead) {
             $this->isRead = true;
-            $this->readTimestemp = now();
+            $this->readTimestamp = now();
             $this->save();
         }
 
