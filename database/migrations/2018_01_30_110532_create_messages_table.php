@@ -19,6 +19,8 @@ class CreateMessagesTable extends Migration
             $table->string('email');
             $table->string('subject');
             $table->string('body');
+            $table->boolean('isRead')->default(false);
+            $table->timestamp('readTimestemp')->nullable();
             $table->timestamps();
         });
     }
