@@ -20,7 +20,7 @@ class CreateMessagesTable extends Migration
             $table->string('subject');
             $table->string('body');
             $table->boolean('isRead')->default(false);
-            $table->timestamp('readTimestemp')->nullable();
+            $table->timestamp('readTimestamp')->nullable();
             $table->timestamps();
         });
     }
