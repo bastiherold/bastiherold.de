@@ -13,8 +13,8 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="http://getbootstrap.com/docs/4.0/examples/dashboard/dashboard.css" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link href="//getbootstrap.com/docs/4.0/examples/dashboard/dashboard.css" rel="stylesheet">
+  <link href="//use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   @yield('additional-styles')
 </head>
 <body>
