@@ -8,6 +8,11 @@ class Message extends Model
 {
     protected $guarded = [];
 
+    public static function unreadCount()
+    {
+        return self::where('isRead', false)->count();
+    }
+
     public function readNow()
     {
         if ( ! $this->isRead) {
@@ -17,5 +22,9 @@ class Message extends Model
         }
 
         return $this;
+    }
+
+    public function getCreatedAtDiffAttribute() {
+        return $this->created_at->diffForHumans();
     }
 }
