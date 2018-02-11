@@ -16,7 +16,14 @@ class MessageController extends Controller
      */
     public function index()
     {
-        return Message::all();
+        $messages = Message::orderBy('isRead', 'asc')
+                        ->orderBy('created_at', 'desc')
+                        ->orderBy('readTimestamp', 'desc')
+                        ->get();
+
+        return view('admin.messages.index', [
+            'messages' => $messages
+        ]);
     }
 
     /**
@@ -61,7 +68,13 @@ class MessageController extends Controller
      */
     public function show(Message $message)
     {
-        //
+        if ( ! $message->isRead){
+            $message->readNow();
+        }
+
+        return view('admin.messages.show', [
+            'message' => $message
+        ]);
     }
 
     /**
