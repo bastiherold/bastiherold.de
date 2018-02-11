@@ -16,7 +16,7 @@
 
                 <div class="col-xs-12 col-sm-9 col-md-9">
                     <p class="about-info-text">
-                        Hallo, mein Name ist Sebastian Herold und ich komme aus Geldern am Niederrhein. Seit nun beinah zwanzig Jahren beschäftige ich mich mit dem Thema Informationstechnologie im Bereich Hard- und Software.
+                        Hallo, mein Name ist Sebastian Herold und ich wohne in Sevelen am Niederrhein. Seit nun beinah zwanzig Jahren beschäftige ich mich mit dem Thema Informationstechnologie im Bereich Hard- und Software.
                     </p>
                 </div>
 
