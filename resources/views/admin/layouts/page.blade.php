@@ -7,7 +7,7 @@
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
 
-  <title>Dashboard Template for Bootstrap</title>
+  <title>Dashboard</title>
 
   <!-- Bootstrap core CSS -->
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -15,6 +15,7 @@
   <!-- Custom styles for this template -->
   <link href="http://getbootstrap.com/docs/4.0/examples/dashboard/dashboard.css" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  @yield('additional-styles')
 </head>
 <body>
 
@@ -25,7 +26,7 @@
 
       @include('admin.partials.sidebar')
 
-      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3">
         @yield('content')
       </main>
       
