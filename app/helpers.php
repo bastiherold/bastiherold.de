@@ -11,3 +11,8 @@ function areActiveRoutes(Array $routes, $output = 'active')
         return (Route::currentRouteName() == $route) ? $output : null;
     }
 }
+
+function containsActiveRoute($route , $output = 'active')
+{
+    return (mb_strpos(Route::currentRouteName(), $route) !== false) ? $output : null;
+}
