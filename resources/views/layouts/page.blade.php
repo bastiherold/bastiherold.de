@@ -39,6 +39,7 @@
 
     <!-- Google Font a. Custome CSS -->
     <link href='//fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet'>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href='css/app.css' rel='stylesheet'>
 
     <!-- Cookie -->
@@ -83,19 +84,19 @@
               </ol>
               </p>
   
-              <p class="footer-company-name">bastiherold.de © 2017</p>
+              <p class="footer-company-name">bastiherold.de © {{ date('Y') }}</p>
   
           </div>
           <div class="footer-center">
   
               <div>
-                  <a title="Location" href="https://goo.gl/maps/2Q1B78s55SN2" target="_blank"><i class="fa fa-map-marker"></i></a>
+                  <a title="Location" href="https://goo.gl/maps/2Q1B78s55SN2" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
                   <p id="address-footer">Enable JavaScript!</p>
               </div>
   
               <div>
                   <span class="personal-bubble">
-                      <i class="fa fa-envelope"></i>
+                      <i class="fas fa-envelope"></i>
                       <p id="email-footer">Enable JavaScript!</p>
                   </span>
               </div>
@@ -113,19 +114,19 @@
   
               <div class="footer-icons">
                   <a href="https://www.xing.com/profile/Sebastian_Herold24" target="_blank" title="Xing">
-                      <i class="fa fa-xing"></i>
+                      <i class="fab fa-xing"></i>
                   </a>
                   <a href="https://twitter.com/bastiherold" target="_blank" title="Twitter">
-                      <i class="fa fa-twitter"></i>
+                      <i class="fab fa-twitter"></i>
                   </a>
                   <a href="https://github.com/bastiherold/" target="_blank" class="social-inactive" title="GitHub">
-                      <i class="fa fa-github-alt"></i>
+                      <i class="fab fa-github-alt"></i>
                   </a>
                   <a href="https://www.facebook.com/bastiherold.de" target="_blank" title="Facebook">
-                      <i class="fa fa-facebook"></i>
+                      <i class="fab fa-facebook"></i>
                   </a>
               </div>
-              <span id="toTop" style=""><i class="fa fa-angle-double-up" aria-hidden="true"></i></span>
+              <span id="toTop" style=""><i class="fab fa-angle-double-up" aria-hidden="true"></i></span>
           </div>
       </div>
   </footer>
@@ -152,4 +153,3 @@
   
 </body>
 </html>
-    
