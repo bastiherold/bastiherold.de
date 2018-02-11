@@ -10,7 +10,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/" title="#!/bin/bash"><i class="fa fa-terminal"></i><span class="js_project-text" data-text="Project Name">$ bastiherold.de</span></a>
+                
+                @if (Auth::check())
+                <a class="navbar-brand" href="{{ route('admin.home') }}" title="#!/bin/bash">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span class="js_project-text">Dashboard</span>
+                </a>
+                @else  
+                    <a class="navbar-brand" href="/" title="#!/bin/bash">
+                        <i class="fa fa-xs fa-terminal"></i>
+                        <span class="js_project-text">$ bastiherold.de</span>
+                    </a>
+                @endif
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
