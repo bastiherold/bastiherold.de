@@ -40,7 +40,7 @@
     <!-- Google Font a. Custome CSS -->
     <link href='//fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet'>
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link href='css/app.css' rel='stylesheet'>
+    <link href="{{ mix('/css/app.css') }}" rel='stylesheet'>
 
     <!-- Cookie -->
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
@@ -126,15 +126,16 @@
                       <i class="fab fa-facebook"></i>
                   </a>
               </div>
-              <span id="toTop" style=""><i class="fab fa-angle-double-up" aria-hidden="true"></i></span>
+              <span id="toTop" style="display: inline;"><i class="fas fa-angle-double-up"></i></span>
           </div>
       </div>
   </footer>
 
-  <!-- jQuery -->
-  {{--  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  --}}
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  {{--  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  --}}
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="{{ asset('/js/app.js') }}"></script>
+  <script src="{{ asset('/js/scripts.js') }}"></script>
   
   <!-- GA -->
   <script>
