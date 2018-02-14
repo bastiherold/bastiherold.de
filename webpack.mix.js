@@ -13,5 +13,6 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
     .copy('resources/assets/js/scripts.js', 'public/js')
+    .copy('resources/assets/dashboard', 'public/dashboard')
     .sass('resources/assets/sass/app.scss', 'public/css')
     .sass('resources/assets/sass/login.scss', 'public/css');
