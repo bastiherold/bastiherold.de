@@ -10,20 +10,6 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <ul class="nav navbar-nav d-md-down-none">
-    <li class="nav-item px-3">
-      <a class="nav-link" href="#">Dashboard</a>
-    </li>
-  
-    <li class="nav-item px-3">
-      <a class="nav-link" href="#">Users</a>
-    </li>
-  
-    <li class="nav-item px-3">
-      <a class="nav-link" href="#">Settings</a>
-    </li>
-  </ul>
-
   <ul class="nav navbar-nav ml-auto">
     <li class="nav-item dropdown d-md-down-none">
       
