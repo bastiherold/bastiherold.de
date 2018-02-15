@@ -13,7 +13,9 @@
       </li>
 
       <li class="nav-item">
-        <a href="colors.html" class="nav-link"><i class="icon-drop"></i> Colors</a>
+        <a href="{{ route('messages.index') }}" class="nav-link {{ containsActiveRoute('message') }}">
+          <i class="icon-drop"></i>Messages
+        </a>
       </li>
 
       <li class="divider"></li>
