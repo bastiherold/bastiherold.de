@@ -12,7 +12,7 @@
       <li class="nav-item">
         <a class="nav-link {{ containsActiveRoute('messages') }}" href="{{ route('messages.index') }}">
           <i class="far fa-envelope"></i>
-          Messages <span class="badge badge-success align-middle">{{ App\Message::unreadCount() }}</span>
+          Messages <span class="badge badge-success align-middle">{{ App\Models\Message::unreadCount() }}</span>
         </a>
       </li>
     </ul>

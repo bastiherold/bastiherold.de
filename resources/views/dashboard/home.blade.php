@@ -9,11 +9,11 @@
       <i class="fa fa-envelope"></i>
       <ul>
         <li>
-          <strong>{{ App\Message::unreadCount() }}</strong>
+          <strong>{{ App\Models\Message::unreadCount() }}</strong>
           <span>Unread</span>
         </li>
         <li>
-          <strong>{{ App\Message::count() }}</strong>
+          <strong>{{ App\Models\Message::count() }}</strong>
           <span>Messages</span>
         </li>
       </ul>

@@ -27,9 +27,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul id="nav_type" class="nav navbar-nav navbar-right">
                     <li title="Home"><a href="#top"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                    <li title="Home"><a href="#skills"><i class="fa fa-code" aria-hidden="true"></i> Kompetenzen</a></li>
+                    <li title="Skills"><a href="#skills"><i class="fa fa-code" aria-hidden="true"></i> Kompetenzen</a></li>
                     <li title="Kontakt"><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Kontakt</a></li>
                     <li title="Impressum"><a href="#legal"><i class="fa fa-gavel" aria-hidden="true"></i> Impressum</a></li>
+                    <li title="Datenschutz"><a href="#privacy"><i class="fas fa-user-secret" aria-hidden="true"></i> Datenschutz</a></li>
                 </ul>
 
             </div>
@@ -63,4 +64,6 @@
     @include('singlepage.contact-section')
 
     @include('singlepage.imprint-section')
+
+    @include('singlepage.privacy-section')
 @endsection

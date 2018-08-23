@@ -24,6 +24,8 @@
     <meta property="DC.language" content="de" />
     <meta property="DC.format" content="text/html" />
 
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <script>
         window.Laravel = <?php echo json_encode([
                 'csrfToken' => csrf_token(),
@@ -81,6 +83,7 @@
                   <li><a href="#skills">Kompetenzen</a></li>
                   <li><a href="#contact">Kontakt</a></li>
                   <li><a href="#legal">Impressum</a></li>
+                  <li><a v-on:click="console.log('vueClicked!')" href="#privacy">Datenschutz</a></li>
               </ol>
               </p>
   

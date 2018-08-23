@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Mail;
-use App\Message;
+use App\Models\Message;
 use App\Mail\Contact;
 use Illuminate\Http\Request;
 
@@ -21,7 +21,7 @@ class MessageController extends Controller
                         ->orderBy('readTimestamp', 'desc')
                         ->get();
 
-        return view('admin.messages.index', [
+        return view('dashboard.messages.index', [
             'messages' => $messages
         ]);
     }

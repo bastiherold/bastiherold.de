@@ -23,7 +23,7 @@
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 </li>
                                 <li>
-                                    SQL<br>
+                                    MySQL<br>
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 </li>
                                 <li>
@@ -60,7 +60,7 @@
                                     <i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
                                 </li>
                                 <li>
-                                    Bootstrap<br>
+                                    Bootstrap 4<br>
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 </li>
                             </ul>
@@ -86,6 +86,10 @@
                                 </li>
                                 <li>
                                     GIT / Subversion<br>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                </li>
+                                <li>
+                                    Redis<br>
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                                 </li>
                             </ul>

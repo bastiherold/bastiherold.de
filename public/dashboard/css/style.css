@@ -10036,7 +10036,9 @@ base-chart.chart {
     padding-left: 7.5px; }
 
 .main .container-fluid {
-  padding: 0 30px; }
+  padding: 0 30px; 
+  margin-bottom: 1.5rem;
+}  
 
 .input-group-prepend,
 .input-group-append {
