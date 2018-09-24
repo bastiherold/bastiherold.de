@@ -11,16 +11,13 @@ $(function() {
       var t = $(this).attr("href");
       if (t == '#legal') {
           $("#legal").fadeIn("fast");
-          $("html, body").animate({
-              scrollTop: $($(this).attr("href")).offset().top
-            }, 666);
-        }
-        if (t == '#privacy') {
-            $("#privacy").fadeIn("fast");
-            $("html, body").animate({
-                scrollTop: $($(this).attr("href")).offset().top
-            }, 666);
-        }
+      }
+      else if (t == '#privacy') {
+          $("#privacy").fadeIn("fast");
+      }
+      $("html, body").animate({
+            scrollTop: $($(this).attr("href")).offset().top
+          }, 666);
     }
     $(".navbar-nav a, .breadcrumb a, .section-link-icon").bind("click", scrollToLink);
 });
