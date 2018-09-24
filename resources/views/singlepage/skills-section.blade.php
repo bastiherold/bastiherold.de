@@ -60,6 +60,10 @@
                                     <i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
                                 </li>
                                 <li>
+                                    VueJS 2<br>
+                                    <i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                </li>
+                                <li>
                                     Bootstrap 4<br>
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 </li>
