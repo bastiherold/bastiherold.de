@@ -6,8 +6,9 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
+        "barryvdh/laravel-ide-helper": "^2.5",
         "fideloper/proxy": "~4.0",
-        "laravel/framework": "5.7.x-dev",
+        "laravel/framework": "5.7.*",
         "laravel/tinker": "~1.0"
     },
     "require-dev": {
