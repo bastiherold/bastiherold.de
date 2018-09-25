@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>Sebastian Herold, Fachinformatiker für Anwendungsentwicklung aus Geldern am Niederrhein</title>
+    <title>Sebastian Herold, Fachinformatiker für Anwendungsentwicklung aus Issum - Sevelen am Niederrhein</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sebastian Herold, Fachinformatiker für Anwendungsentwicklung aus Geldern am Niederrhein" />
-    <meta name="keywords" content="Sebastian, Herold, Sebastian Herold, Informatik, IT, Fachinformatiker, PHP, CSS, CSS3, SASS, HTML, HTML5, JavaScript, JS, Laravel, cakePHP, Geldern, Niederrhein, macOS, iOS" />
+    <meta name="description" content="Sebastian Herold, Fachinformatiker für Anwendungsentwicklung aus Issum - Sevelen am Niederrhein" />
+    <meta name="keywords" content="Sebastian, Herold, Sebastian Herold, Informatik, IT, Fachinformatiker, Entwickler, Developer, Fullstack, Webdevelopment, PHP, CSS, CSS3, SASS, HTML, HTML5, JavaScript, JS, Laravel, cakePHP, Issum, Sevelen, Geldern, Niederrhein, macOS, iOS" />
 
     <!-- Open Graph Metadata -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="" />
     <meta property="og:locale" content="de_DE" />
     <meta property="og:site_name" content="bastiherold.de" />
-    <meta property="og:type" content="website" />
     <meta property="og:link" content="https://www.bastiherold.de" />
 
     <!-- Dublin Core Metadata -->
     <meta property="DC.title" content="" />
     <meta property="DC.creator" content="Sebastian Herold" />
-    <meta property="DC.subject" content="Sebastian Herold, Fachinformatiker für Anwendungsentwicklung aus Geldern am Niederrhein" />
-    <meta property="DC.description" content="Sebastian Herold, Fachinformatiker für Anwendungsentwicklung aus Geldern am Niederrhein" />
+    <meta property="DC.subject" content="Sebastian Herold, Fachinformatiker für Anwendungsentwicklung aus Issum - Sevelen am Niederrhein" />
+    <meta property="DC.description" content="Sebastian Herold, Fachinformatiker für Anwendungsentwicklung aus Issum - Sevelen am Niederrhein" />
     <meta property="DC.language" content="de" />
     <meta property="DC.format" content="text/html" />
 

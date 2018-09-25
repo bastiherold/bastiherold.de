@@ -73,7 +73,7 @@
           @else
             <i class="fas fa-4x fa-envelope"></i>
           @endif
-          {{--  <img class="rounded-circle" src="https://randomuser.me/api/portraits/women/50.jpg">  --}}
+           <img class="rounded-circle" src="https://randomuser.me/api/portraits/women/50.jpg"> 
         @endslot
 
         @slot('title')

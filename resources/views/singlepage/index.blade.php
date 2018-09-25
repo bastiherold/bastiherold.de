@@ -1,7 +1,7 @@
 @extends('layouts.page')
 
 @section('content')
-    <nav id="top" class="navbar navbar-default navbar-static-top">
+    <nav id="top" class="navbar navbar-default navbar-static-top app">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -26,11 +26,11 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul id="nav_type" class="nav navbar-nav navbar-right">
-                    <li title="Home"><a href="#top"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                    <li title="Skills"><a href="#skills"><i class="fa fa-code" aria-hidden="true"></i> Kompetenzen</a></li>
-                    <li title="Kontakt"><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Kontakt</a></li>
-                    <li title="Impressum"><a href="#legal"><i class="fa fa-gavel" aria-hidden="true"></i> Impressum</a></li>
-                    <li title="Datenschutz"><a href="#privacy"><i class="fas fa-user-secret" aria-hidden="true"></i> Datenschutz</a></li>
+                    <navbarlink-component title="Home" href="#top" classes="fa fa-home">Home</navbarlink-component>
+                    <navbarlink-component title="Skills" href="#skills" classes="fa fa-code">Kompetenzen</navbarlink-component>
+                    <navbarlink-component title="Kontakt" href="#contact" classes="fa fa-envelope">Kontakt</navbarlink-component>
+                    <navbarlink-component title="Impressum" href="#legal" classes="fa fa-gavel">Impressum</navbarlink-component>
+                    <navbarlink-component title="Datenschutz" href="#privacy" classes="fas fa-user-secret">Datenschutz</navbarlink-component>
                 </ul>
 
             </div>

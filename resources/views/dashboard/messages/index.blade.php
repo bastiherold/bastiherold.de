@@ -1,53 +1,45 @@
 @extends('dashboard.layouts.page')
 
 @section('content')
-<table class="table table-responsive-sm table-hover table-outline mb-0">
-  <thead class="thead-light">
-    <tr>
-      <th class="text-center"><i class="icon-people"></i></th>
-      <th>Name</th>
-      <th>E-Mail</th>
-      <th>Subject</th>
-      <th>Activity</th>
-    </tr>
-  </thead>
+<div class="columns">
+  <div class="column is-12">
+    <div class="card box">
+      @if ($messages->count() >= 1)
+        <table class="table is-striped is-narrow is-hoverable is-fullwidth">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>E-Mail</th>
+              <th>Subject</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody>
+            @foreach($messages as $m)
+              <tr>
+                <th>
+                  <a href="{{ route('message.show', $m)}}">
+                  @if($m->isRead)
+                    <span class="tag is-primary">Open</span>
+                  @else
+                    <span class="tag is-success">New</span>
+                  @endif
+                  </a>
+                </th>
+                <td>{{ $m->senderName }}</td>
+                <td>{{ $m->email }}</td>
+                <td>{{ str_limit($m->subject, 15) }}</td>
+                <td>{{ str_limit($m->body, 15) }}</td>
+              </tr>
+            @endforeach
+          </tbody>
+        </table>
+      @else
+        No Messages found!
+      @endif
+    </div>
+  </div>
+</div>
 
-  <tbody>
-    
-    @foreach($messages as $message)
-    
-    <tr class="clickable-row" data-href="#">
-      <td class="text-center">
-        <div class="avatar">
-          @if($message->isRead)
-            <i class="icon-envelope-letter"></i>
-          @else
-            <i class="icon-envelope"></i>
-            <span class="badge badge-success">New</span>
-          @endif
-        </div>
-      </td>
-
-      <td>
-        <div>{{ $message->senderName }}</div>
-      </td>
-
-      <td>
-        <div>{{ $message->email }}</div>
-      </td>
-
-      <td>
-        <div>{{ str_limit($message->subject, 100) }}</div>
-      </td>
-
-      <td>
-        <div class="small text-muted">Send</div>
-        <strong>{{ $message->createdAtDiff }}</strong>
-      </td>
-    </tr>
-  
-    @endforeach
-
-  </tbody>
-</table>
 @endsection

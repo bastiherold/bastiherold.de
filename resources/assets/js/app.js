@@ -15,7 +15,7 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('navbar-component', require('./vue/components/Navbar.vue'));
+Vue.component('navbarlink-component', require('./vue/components/NavbarLink.vue'));
 
 const app = new Vue({
     el: '.app'

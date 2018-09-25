@@ -9,7 +9,7 @@
       <li class="divider"></li>
 
       <li class="nav-title">
-        Area 1
+        Communication
       </li>
 
       <li class="nav-item">
@@ -17,7 +17,7 @@
           <i class="icon-drop"></i>Messages
         </a>
       </li>
-
+{{--
       <li class="divider"></li>
 
       <li class="nav-title">
@@ -48,7 +48,7 @@
           
         </ul>
       </li>
-      
+--}}
       {{--  Core UI Links  --}}
       <li class="nav-item mt-auto">
         <a class="nav-link nav-link-success" href="http://coreui.io/" target="_top"><i class="icon-cloud-download"></i> Download CoreUI</a>
